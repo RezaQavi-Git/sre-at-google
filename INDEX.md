@@ -7,14 +7,14 @@
 
 ### Part 1: Fundamentals & Culture
 
-**[Chapter 1: Introduction](Chapter_1_Study_Notes.md)**
+**[Chapter 1: Introduction](./chapters/Chapter_1_Study_Notes.md)**
 - What is SRE?
 - Core SRE philosophy
 - Service Level Objectives (SLOs) and Error Budgets
 - Monitoring and alerting foundations
 - Reliability vs. velocity trade-offs
 
-**[Chapter 2: How Google Runs Production Systems](Chapter_2_Study_Notes.md)**
+**[Chapter 2: How Google Runs Production Systems](./chapters/Chapter_2_Study_Notes.md)**
 - SRE organizational structure
 - SRE responsibilities (day-to-day and strategic)
 - On-call rotations and incident response
@@ -23,7 +23,7 @@
 - Capacity planning
 - Partnerships with product teams
 
-**[Chapter 3: Embracing Risk](Chapter_3_Study_Notes.md)**
+**[Chapter 3: Embracing Risk](./chapters/Chapter_3_Study_Notes.md)**
 - Why 100% reliability is not a goal
 - Measuring service risk (MTTR, MTBF)
 - Service Level Agreements vs. Objectives vs. Indicators
@@ -35,7 +35,7 @@
 
 ### Part 2: Core SRE Practices
 
-**[Chapter 4: Service Level Objectives](Chapter_4_Study_Notes.md)**
+**[Chapter 4: Service Level Objectives](./chapters/Chapter_4_Study_Notes.md)**
 - Purpose and characteristics of SLOs
 - Service Level Indicators (SLIs) - definition and types
 - Choosing and defining SLOs
@@ -45,7 +45,7 @@
 - Multi-tier SLOs
 - Measuring and monitoring SLOs
 
-**[Chapter 5: Eliminating Toil](Chapter_5_Study_Notes.md)**
+**[Chapter 5: Eliminating Toil](./chapters/Chapter_5_Study_Notes.md)**
 - Definition and characteristics of toil
 - Measuring toil (time tracking, incident classification)
 - Root causes of toil
@@ -54,7 +54,7 @@
 - Leveling up from toil to engineering
 - Building automation culture
 
-**[Chapter 6: Monitoring Distributed Systems](Chapter_6_Study_Notes.md)**
+**[Chapter 6: Monitoring Distributed Systems](./chapters/Chapter_6_Study_Notes.md)**
 - Purpose and importance of monitoring
 - Monitoring vs. observability
 - Types of metrics (USE, RED, Four Golden Signals)
@@ -69,7 +69,7 @@
 
 ### Part 3: Automation & Release
 
-**[Chapter 7: The Evolution of Automation at Google](Chapter_7_Study_Notes.md)**
+**[Chapter 7: The Evolution of Automation at Google](./chapters/Chapter_7_Study_Notes.md)**
 - Role of automation in SRE
 - Automation levels (0-4, from manual to autonomous)
 - Risk management in automation
@@ -79,7 +79,7 @@
 - Automation anti-patterns
 - Making automation reliable
 
-**[Chapter 8: Release Engineering](Chapter_8_Study_Notes.md)**
+**[Chapter 8: Release Engineering](./chapters/Chapter_8_Study_Notes.md)**
 - What is release engineering?
 - Phases of software release (VCS, build, test, staging, production)
 - Continuous Integration, Delivery, and Deployment
@@ -94,7 +94,7 @@
 
 ### Part 4: System Design & Operations
 
-**[Chapter 9: Simplicity](Chapter_9_Study_Notes.md)**
+**[Chapter 9: Simplicity](./chapters/Chapter_9_Study_Notes.md)**
 - Value and importance of simplicity
 - Root causes of unnecessary complexity
 - Designing for simplicity (minimize components, dependencies, abstraction)
@@ -104,7 +104,7 @@
 - Refactoring and code review for simplicity
 - Simplicity as competitive advantage
 
-**[Chapter 10: Practical Alerting from Time-Series Data](Chapter_10_Study_Notes.md)**
+**[Chapter 10: Practical Alerting from Time-Series Data](./chapters/Chapter_10_Study_Notes.md)**
 - Introduction to time-series alerting
 - Types of alerts (threshold, rate-of-change, trend, composite)
 - Data collection and preparation
@@ -119,7 +119,7 @@
 
 ### Part 5: On-Call & Troubleshooting
 
-**[Chapter 11: Being On-Call](Chapter_11_Study_Notes.md)**
+**[Chapter 11: Being On-Call](./chapters/Chapter_11_Study_Notes.md)**
 - What on-call means
 - On-call rotations (design, frequency, coverage)
 - Preparing for on-call duty
@@ -131,7 +131,7 @@
 - Learning from incidents
 - Metrics and improvement
 
-**[Chapter 12: Effective Troubleshooting](Chapter_12_Study_Notes.md)**
+**[Chapter 12: Effective Troubleshooting](./chapters/Chapter_12_Study_Notes.md)**
 - Troubleshooting overview
 - Troubleshooting process (symptoms, investigation, hypothesis, testing, solution)
 - Tools and techniques
@@ -148,27 +148,27 @@
 ### By Topic Area
 
 #### Reliability & SLOs
-- [[Chapter_1_Study_Notes.md|Chapter 1]] - Fundamentals
-- [[Chapter_3_Study_Notes.md|Chapter 3]] - Risk and error budgets
-- [[Chapter_4_Study_Notes.md|Chapter 4]] - SLOs in detail
+- [Chapter 1](./chapters/Chapter_1_Study_Notes.md) - Fundamentals
+- [Chapter 3](./chapters/Chapter_3_Study_Notes.md) - Risk and error budgets
+- [Chapter 4](./chapters/Chapter_4_Study_Notes.md) - SLOs in detail
 
 #### Monitoring & Alerting
-- [[Chapter_6_Study_Notes.md|Chapter 6]] - Monitoring fundamentals
-- [[Chapter_10_Study_Notes.md|Chapter 10]] - Advanced alerting
+- [Chapter 6](./chapters/Chapter_6_Study_Notes.md) - Monitoring fundamentals
+- [Chapter 10](./chapters/Chapter_10_Study_Notes.md) - Advanced alerting
 
 #### Automation & Operations
-- [[Chapter_5_Study_Notes.md|Chapter 5]] - Eliminating toil
-- [[Chapter_7_Study_Notes.md|Chapter 7]] - Automation
-- [[Chapter_8_Study_Notes.md|Chapter 8]] - Releases
+- [Chapter 5](./chapters/Chapter_5_Study_Notes.md) - Eliminating toil
+- [Chapter 7](./chapters/Chapter_7_Study_Notes.md) - Automation
+- [Chapter 8](./chapters/Chapter_8_Study_Notes.md) - Releases
 
 #### System Design
-- [[Chapter_9_Study_Notes.md|Chapter 9]] - Simplicity
-- [[Chapter_2_Study_Notes.md|Chapter 2]] - Architecture patterns
+- [Chapter 9](./chapters/Chapter_9_Study_Notes.md) - Simplicity
+- [Chapter 2](./chapters/Chapter_2_Study_Notes.md) - Architecture patterns
 
 #### On-Call & Incident Response
-- [[Chapter_2_Study_Notes.md|Chapter 2]] - On-call basics
-- [[Chapter_11_Study_Notes.md|Chapter 11]] - Being on-call
-- [[Chapter_12_Study_Notes.md|Chapter 12]] - Troubleshooting
+- [Chapter 2](./chapters/Chapter_2_Study_Notes.md) - On-call basics
+- [Chapter 11](./chapters/Chapter_11_Study_Notes.md) - Being on-call
+- [Chapter 12](./chapters/Chapter_12_Study_Notes.md) - Troubleshooting
 
 ---
 
