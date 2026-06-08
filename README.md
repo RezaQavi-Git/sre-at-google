@@ -4,15 +4,15 @@ Complete study notes for **"Site Reliability Engineering: How Google Runs Produc
 
 ## 📖 Chapters (12 Total)
 
-1. **[Introduction](./chapters/Chapter_1_Study_Notes.md)** - SRE philosophy, SLOs, error budgets
-2. **[How Google Runs Production Systems](./chapters/Chapter_2_Study_Notes.md)** - Organization, on-call, PRR
-3. **[Embracing Risk](./chapters/Chapter_3_Study_Notes.md)** - Risk management, SLA/SLO/SLI
-4. **[Service Level Objectives](./chapters/Chapter_4_Study_Notes.md)** - Defining SLIs and SLOs
-5. **[Eliminating Toil](./chapters/Chapter_5_Study_Notes.md)** - Automation, efficiency
-6. **[Monitoring Distributed Systems](./chapters/Chapter_6_Study_Notes.md)** - Metrics, alerting, observability
-7. **[Evolution of Automation](./chapters/Chapter_7_Study_Notes.md)** - Automation levels, runbooks
-8. **[Release Engineering](./chapters/Chapter_8_Study_Notes.md)** - Deployments, CI/CD, canary
-9. **[Simplicity](./chapters/Chapter_9_Study_Notes.md)** - System design, complexity
+1. **[Introduction](./chapters/Chapter_01_Study_Notes.md)** - SRE philosophy, SLOs, error budgets
+2. **[How Google Runs Production Systems](./chapters/Chapter_02_Study_Notes.md)** - Organization, on-call, PRR
+3. **[Embracing Risk](./chapters/Chapter_03_Study_Notes.md)** - Risk management, SLA/SLO/SLI
+4. **[Service Level Objectives](./chapters/Chapter_04_Study_Notes.md)** - Defining SLIs and SLOs
+5. **[Eliminating Toil](./chapters/Chapter_05_Study_Notes.md)** - Automation, efficiency
+6. **[Monitoring Distributed Systems](./chapters/Chapter_06_Study_Notes.md)** - Metrics, alerting, observability
+7. **[Evolution of Automation](./chapters/Chapter_07_Study_Notes.md)** - Automation levels, runbooks
+8. **[Release Engineering](./chapters/Chapter_08_Study_Notes.md)** - Deployments, CI/CD, canary
+9. **[Simplicity](./chapters/Chapter_09_Study_Notes.md)** - System design, complexity
 10. **[Practical Alerting](./chapters/Chapter_10_Study_Notes.md)** - Time-series alerts, anomaly detection
 11. **[Being On-Call](./chapters/Chapter_11_Study_Notes.md)** - On-call rotations, incident response
 12. **[Effective Troubleshooting](./chapters/Chapter_12_Study_Notes.md)** - Debugging, problem-solving
@@ -26,10 +26,10 @@ Complete study notes for **"Site Reliability Engineering: How Google Runs Produc
 - **Manager:** Start with chapters 1 → 2 → 3 → 4
 
 ### By Problem
-- Need to define SLOs? → [Chapter 4](./chapters/Chapter_4_Study_Notes.md)
-- Too much manual work? → [Chapter 5](./chapters/Chapter_5_Study_Notes.md)
+- Need to define SLOs? → [Chapter 4](./chapters/Chapter_04_Study_Notes.md)
+- Too much manual work? → [Chapter 5](./chapters/Chapter_05_Study_Notes.md)
 - Incident chaos? → [Chapter 11](./chapters/Chapter_11_Study_Notes.md) & [Chapter 12](./chapters/Chapter_12_Study_Notes.md)
-- Risky deployments? → [Chapter 8](./chapters/Chapter_8_Study_Notes.md)
+- Risky deployments? → [Chapter 8](./chapters/Chapter_08_Study_Notes.md)
 - Alert fatigue? → [Chapter 10](./chapters/Chapter_10_Study_Notes.md)
 
 ## 📚 Features
